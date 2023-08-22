@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.title {
+    color: darkred;
+    font-family: "Georgia", serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.news-story {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Add a border line at the bottom of each news story */
+    padding-bottom: 20px; /* Add some space below the news story */
+}
+
+.news-story h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
