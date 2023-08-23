@@ -6,9 +6,9 @@
   body {
     margin: 0;
     padding: 10px;
-    background-color: #ebebeb;    
+    background-color: #7d1211;    
     background-size: 1480px;
-    font-family: Helvetica;
+    font-family: 'Arial Narrow Bold', sans-serif;
   }
 
   .articles {
@@ -19,6 +19,7 @@
   .topnav {
     overflow: hidden;
     margin: 20px;
+    margin-top: 30px;
   }
   
   .topnav a {
@@ -28,7 +29,7 @@
     margin: 0px;
     padding: 14px 25px;
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   .header {
@@ -36,14 +37,18 @@
     margin: 0px;
     margin-top: 80px;
     text-align: center;
-    font-family: Georgia;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
   }
 
   .date {
     padding: 5px;
     text-align: center;
-    font-family: Helvetica;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     background-color: #b0474b;
+    color: white;
   }
   
   .bottomnav {
@@ -59,6 +64,8 @@
     text-align: center;
     padding: 20px 28.7px;
     text-decoration: none;
+    font-size: 17px;
+    background-color: #d9d5d2;
   }
   
   .bottomnav a:hover {
@@ -100,8 +107,7 @@
   }
   
   .footer {
-    padding: 0px;
+    padding: 1px;
     text-align: center;
-    margin: 20px;
-    font-family: Georgia;
+    margin: 150px;
   }
